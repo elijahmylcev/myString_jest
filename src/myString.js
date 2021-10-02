@@ -16,4 +16,4 @@ class MyString extends String {
     }
 }
 
-module.exports = {MyString};
+module.exports = { MyString };
