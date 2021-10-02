@@ -4,7 +4,7 @@
   "description": "Code Testing Practice",
   "main": "index.js",
   "scripts": {
-    "test:unit": "jest --watch"
+    "test:unit": "jest --watchAll"
   },
   "repository": {
     "type": "git",
