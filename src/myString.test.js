@@ -12,7 +12,6 @@ describe('myString', () => {
     str = new MyString('hell')
   });
 
-
   test('must support string methods, for example String.concat(...)', () => {
     expect(strTest.concat(str)).toEqual('two steps from hell');
   });
@@ -23,7 +22,7 @@ describe('myString', () => {
   });
 
   test('Remove deletes the first occurrence of the passed character and returns the index of the deleted character or null', () => {
-    expect(str.remove('e')).toBe(1);
+    expect(str.remove('e')).toBe('hll');
     expect(str.remove('r')).toBeNull();
   });
 });
